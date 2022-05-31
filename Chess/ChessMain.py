@@ -24,5 +24,7 @@ def main():
     screen.fill(p.Color("blue"))
     gs = ChessEngine.GameState()
     print(gs.board)
+    loadImages()
+
 
 main()
